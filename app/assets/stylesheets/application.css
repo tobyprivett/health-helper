@@ -31,3 +31,19 @@ img {
 	margin: 20px 0 30px;
 	max-width: 100%;
 }
+
+table {
+	border: 1px solid;
+	max-width: 100%;
+}
+th{
+	padding: 8px; 
+}
+td.title {
+	font-weight: bold; 	
+	border: 1px solid;
+}
+td{
+	padding: 8px; 
+	border: 1px solid;
+}
