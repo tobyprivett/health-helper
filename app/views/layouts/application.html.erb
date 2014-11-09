@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Health Helper</title>
+  <title>Health Helper - <%= @page_title %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 <content>
-<h1><%= @page_title %></h1>
+<h1>Health Helper - <%= @page_title %></h1>
 
 <%= yield %>
 </content>
